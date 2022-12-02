@@ -17,6 +17,6 @@ while True:
     num1 = float(input('Введите первое число: '))
     num2 = float(input('Введите второе число: '))
 
-    res = calculator(act, num1, num2)
-    write_history(act, num1, num2, res)
-    print(res)
+    result = calculator(act, num1, num2)
+    write_history(act, num1, num2, result)
+    print(result)
